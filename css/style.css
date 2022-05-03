@@ -1,0 +1,57 @@
+*{
+    
+    margin: 0;
+    box-sizing: border-box;
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+body{
+    padding: 2rem;
+}
+
+.container{
+    background-image: url(../images/pexels-photo-1906658.jpeg);
+    object-fit: cover;
+   
+    width: 400px;
+    height: 400px;
+    overflow: hidden;
+    
+    
+    
+}
+
+.box p{
+    transform: rotate(-30deg);
+    
+}
+
+.box{
+  
+    transform: translatex(-100%);
+    transition: 2s transform linear;
+    height: 100%;
+    width: 100%;
+    padding-right: 10rem; 
+    padding-top: 5rem;
+    
+    
+    
+  
+    
+}
+
+.container:hover .box{
+    transform: translatex(0);
+    -webkit-transform: rotate(30deg); 
+    -moz-transform: rotate(30deg);
+    padding-right: 10rem; 
+    padding-top: 5rem;
+    
+}
+
+
+    
+    
+    
